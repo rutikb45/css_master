@@ -1,0 +1,26 @@
+CSS is designed to enable the separation of content and presentation, 
+including layout, colors, and fonts.
+** why it's called CSS **
+CSS stands for Cascading Style Sheets.
+
+**Cascading
+    The "Cascading" part refers to the way CSS applies styles to elements in an HTML document. CSS rules can be applied from multiple sources, and the "cascade" determines which rules take precedence when there are conflicts. The cascade follows a specific order of importance:
+    Inline Styles: Styles defined directly within an HTML element using the style attribute.
+    Internal (Embedded) Styles: Styles defined within a <style> tag inside the HTML document's <head>.
+    External Styles: Styles defined in an external CSS file linked to the HTML document using the <link> tag.
+    User Styles: Styles defined by the user (e.g., in a browser's user settings).
+    Browser Defaults: Default styles provided by the browser.
+    Additionally, CSS uses specificity and inheritance to resolve conflicts:
+    Specificity: More specific selectors take precedence over less specific ones.
+    Inheritance: Some CSS properties are inherited from parent elements, while others are not.
+
+**Style
+    The "Style" part refers to the way CSS is used to style and format the content of web pages. This includes a wide range of properties that affect the appearance of elements, such as:
+    Layout: Display, positioning, floats, and grids.
+    Typography: Font size, family, weight, and line height.
+    Color: Text color, background color, border color.
+    Spacing: Margins, padding, and borders.
+    Visual Effects: Shadows, gradients, transformations, transitions, and animations.
+
+**Sheets
+    The "Sheets" part indicates that CSS is intended to be used in conjunction with HTML documents, typically linked as separate files (style sheets) that define the presentation of multiple web pages. This separation of content (HTML) from presentation (CSS) is one of the core principles of web development, allowing for more flexible and maintainable code.
